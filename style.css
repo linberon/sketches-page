@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	background-color: #e0ccb2;
+}
+
+nav {
+	max-width: 100%;
+	padding: 5px 20px 5px 20px;
+	color: #777777;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+li {
+	display: inline;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+li:hover,
+.menu:hover,
+.back:hover {
+	color: black;
+	cursor: pointer;
+}
+
+header {
+	color: #1a0e47;
+	font-size: x-large;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	opacity: 0.8;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	color: #715946;
+}
+
+header h1 {
+	font-family: "Nothing You Could Do", cursive;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+
+h3 {
+	color: #715946;
+}
+
+header p {
+	margin-top: 0.5em;
+}
+
+.thumbnail {
+	border: 1px solid #715946;
+	margin-bottom: 20px;
+}
+
+.thumb-img {
+	width: 100%;
+}
+
+.content {
+	padding: 10px;
+	font-family: "Nothing You Could Do", cursive;
+	text-align: center;
+}
+
+.content h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.content p {
+	margin: 0.5em 0;
+}
+
+footer {
+	margin-top: 60px;
+	padding: 5px;
+	color: #777777;
+}
+
+.menu {
+	color: inherit;
+	text-align: center;
+	display: none;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"]:checked ~ #options {
+	display: block;
+}
+
+@media screen and (max-width: 400px) {
+	ul {
+		display: none;
+	}
+
+	.nav-menu {
+		width: 100%;
+		display: block;
+		text-align: right;
+	}
+
+	.menu {
+		display: block;
+	}
+}
+
+.image {
+	border: none;
+}
+
+.back {
+	float: right;
+}
